@@ -16,10 +16,10 @@ body {
   background-color: #556882;
   background-image: url(./../img/header/header-bg.jpg);
   background-image: image-set(
-      url(./../img/header/header-bg.webp) 1x,
-      url(./../img/header/header-bg.jpg) 1x
+    url(./../img/header/header-bg.webp) 1x,
+    url(./../img/header/header-bg.jpg) 1x
   );
-  background-position: center ;
+  background-position: center;
   background-size: cover;
 }
 .header-title {
