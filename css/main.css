@@ -14,10 +14,10 @@ body {
   height: 100vh;
 
   background-color: #556882;
-  background-image: url(./../img/header/header-bg.jpg);
+  /* background-image: url(./../img/header/header-bg.jpg); */
   background-image: image-set(
-    url(./../img/header/header-bg.webp) 1x,
-    url(./../img/header/header-bg.jpg) 1x
+    url("./../img/header/header-bg.webp"),
+    url("./../img/header/header-bg.jpg")
   );
   background-position: center;
   background-size: cover;
