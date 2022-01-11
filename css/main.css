@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%; /* определям ширину .header*/
+  height: 100vh;
+
+  background-color: #556882;
+  background-image: url(./../img/header/header-bg.jpg);
+  background-image: image-set(
+      url(./../img/header/header-bg.webp) 1x,
+      url(./../img/header/header-bg.jpg) 1x
+  );
+  background-position: center ;
+  background-size: cover;
+}
+.header-title {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 130%;
+  text-align: center;
+  color: #ffffff;
+}
+.header-subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.header-arrow {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
