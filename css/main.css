@@ -14,10 +14,15 @@ body {
   height: 100vh;
 
   background-color: #556882;
-  /* background-image: url(./../img/header/header-bg.jpg); */
+  background-image: url(./../img/header/header-bg.jpg);
+  background-image: url(./../img/header/header-bg.webp);
+  /* background-image: image-set(
+    url("../img/header/header-bg.webp") type("image/webp"),
+    url("../img/header/header-bg.jpg") type("image/jpeg")
+  ); */
   background-image: image-set(
-    url("./../img/header/header-bg.webp"),
-    url("./../img/header/header-bg.jpg")
+    url("./../img/header/header-bg.jpg"),
+    url("./../img/header/header-bg.webp")
   );
   background-position: center;
   background-size: cover;
