@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp-tinypng-compress": "^1.2.5"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
