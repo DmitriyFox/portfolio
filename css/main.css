@@ -30,8 +30,8 @@ body {
   background-color: #556882;
   background-image: url(./../img/header/header-bg.jpg);
   background-image: image-set(
-    url("./../img/header/header-bg.jpg") type("image/jpeg"),
-    url("./../img/header/header-bg.webp") type("image/webp")
+    ("./../img/header/header-bg.jpg") type("image/jpeg"),
+    ("./../img/header/header-bg.webp") type("image/webp")
   );
   background-position: center;
   background-size: cover;
